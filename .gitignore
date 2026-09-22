@@ -1,0 +1,45 @@
+# PHP-SabkeNews - .gitignore
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# Cache files
+/cache/*.cache
+/cache/*.html
+
+# Environment & Config
+.env
+.env.local
+
+# Database dumps
+*.sql
+
+# Logs
+visitor_logs.txt
+*.log
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Compiled assets (regenerate with build)
+/assets/css/*.min.css
+/public/assets/
+
+# Uploads (user-generated content)
+/assets/postImage/*
+!/assets/postImage/.gitkeep
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
