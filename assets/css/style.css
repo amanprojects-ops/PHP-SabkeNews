@@ -1,1 +1,364 @@
-.content-heading,.head-title,.navbar,.web-content{text-transform:uppercase}*{clear:both}.heading{width:100%;height:6rem;background:#2e67d9;border-radius:8px}.heading td img{width:20rem;height:7rem;line-height:7rem;border-radius:10px;border:2px solid #fff;box-shadow:#ffffffc2 0 0 4.5px 1.5px;margin:25px}.web-content{width:100%;font-family:system-ui;color:#fff}.head-title{font-size:25PX}.container{width:80%;display:flex;margin:auto;flex-direction:column}.navbar{width:100%;height:50px;background-color:#1e1549;flex-wrap:wrap;overflow-wrap:break-word}.navbar ul{display:flex;justify-content:center;align-items:center;position:relative;list-style:none;font-weight:bolder}.content-rows a,.tab-res a,.view-more a{font-weight:600;text-decoration:none}.navbar ul li:hover>ul{border-radius:10px;display:block;background-color:#dfe6e9;color:#000}.navbar ul li ul{background-color:#4d5ef3;color:#f5f6fa;border-radius:8px;margin-top:15px;line-height:50px}.navbar ul li a{text-decoration:none;padding:0 1em;color:#fff;font-size:1rem}.navbar ul li a:hover{color:#1b02ff;text-decoration:underline;border-radius:8px}.navbar ul ul{position:absolute;display:none}.navbar ul ul li a:hover{background-color:#487eb0;color:#f5f6fa;text-decoration:overline}.text{margin:auto;font-family:cursive;font-size:25px;padding:30px 0 0}.group-links tbody th,.list,.tab-res{padding:10px}.navbarbar ul li{margin:20px;color:#fff}.con-box{width:100%;height:40px;font-size:20px}.tab-res{width:20%;margin:15px 23px;font-size:18px;border-radius:5px}.tab-res a{color:#fff;font-family:math}.conte-tab{color:#fff;background-color:#387685}.row{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center}.content-lists{width:32%;position:relative;margin:5px}.content-rows a{color:#383838;font-family:system-ui;text-transform:capitalize;font-size:15px}.content-rows a:hover{color:#4d5ef3}.content-rows{margin:10px 0;border:1px solid #383838;padding:5px 10px;border-radius:5px;box-shadow:#9098bd 2px 1px 5px 2px}.content-heading{color:#fff;background-color:#021833;padding:8px 0;margin:0;text-align:center}.view-more{position:absolute;bottom:10px;right:15px;padding:8px 10px;background-color:#6d6760;border-radius:5px}.view-more a{color:#fff}.view-more:hover{background-color:#1b02ff;color:#fff}.arrows{color:#000;font-weight:bolder;font-size:20px}.position-bar{margin-top:25px}.social-media{width:99.5%;height:auto;margin:20px 0}.social-media ul{display:flex;justify-content:center;list-style:none}.social-media ul li{padding:5px 15px;color:#fff;border-radius:10px;font-size:40px;margin:5px 10px}.group-links tbody td span a,.social-media ul li a{color:#fff}.group-links thead th{width:auto;height:50px;font-weight:700;font-size:25px}.group-links table{width:60%;text-align:center}.group-links tbody td span{padding:2px 50px;border-radius:8px;font-size:25px}.post-image{margin:15px 0}.post-image img{width:50%}.single-post{width:90%;margin:auto;padding-top:5rem}.post-td{padding:5px 10px}.single-post th{width:10rem;font-weight:bolder}.post-description{margin:30px 0;width:100%;min-width:100%;max-width:100%}.footer{width:100%;height:auto;margin:auto;border:2px solid #000;background-color:#000;color:#fff;display:flex;justify-content:center}.footer-content{width:30%;padding:15px;margin:5px}.created-by{display:flex;align-items:center;justify-content:center;background:#000;color:#fff;font-size:20px;width:100%;padding:2px}.created-by a:hover{color:#7437e7}.box-style{margin-top:50px;border:2px solid #fdfdfd;border-radius:6px;box-shadow:#969697 1px 1px 4px 0}
+/* =================================================================
+   SabkeNews — Main Stylesheet
+   ================================================================= */
+
+/* ─── Reset ──────────────────────────────────────────────────────── */
+* {
+    clear: both;
+}
+
+/* ─── Header ─────────────────────────────────────────────────────── */
+.heading {
+    width: 100%;
+    height: 6rem;
+    background: #2e67d9;
+    border-radius: 8px;
+}
+
+.heading td img {
+    width: 20rem;
+    height: 7rem;
+    line-height: 7rem;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    box-shadow: #ffffffc2 0 0 4.5px 1.5px;
+    margin: 25px;
+}
+
+.web-content {
+    width: 100%;
+    font-family: system-ui;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.head-title {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+/* ─── Layout ─────────────────────────────────────────────────────── */
+.container {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* ─── Navbar ─────────────────────────────────────────────────────── */
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: #1e1549;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+    text-transform: uppercase;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    list-style: none;
+    font-weight: bolder;
+}
+
+.navbar ul li:hover > ul {
+    border-radius: 10px;
+    display: block;
+    background-color: #dfe6e9;
+    color: #000;
+}
+
+.navbar ul li ul {
+    background-color: #4d5ef3;
+    color: #f5f6fa;
+    border-radius: 8px;
+    margin-top: 15px;
+    line-height: 50px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    padding: 0 1em;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.navbar ul li a:hover {
+    color: #1b02ff;
+    text-decoration: underline;
+    border-radius: 8px;
+}
+
+.navbar ul ul {
+    position: absolute;
+    display: none;
+}
+
+.navbar ul ul li a:hover {
+    background-color: #487eb0;
+    color: #f5f6fa;
+    text-decoration: overline;
+}
+
+.navbarbar ul li {
+    margin: 20px;
+    color: #fff;
+}
+
+/* ─── Content Tabs (Homepage colored cards) ──────────────────────── */
+.tab-res {
+    width: 20%;
+    margin: 15px 23px;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.tab-res a {
+    color: #fff;
+    font-family: math;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.conte-tab {
+    color: #fff;
+    background-color: #387685;
+}
+
+/* ─── Content Lists (Category sections) ──────────────────────────── */
+.content-lists {
+    width: 32%;
+    position: relative;
+    margin: 5px;
+}
+
+.content-heading {
+    color: #fff;
+    background-color: #021833;
+    padding: 8px 0;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.list {
+    padding: 10px;
+}
+
+.content-rows {
+    margin: 10px 0;
+    border: 1px solid #383838;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: #9098bd 2px 1px 5px 2px;
+}
+
+.content-rows a {
+    color: #383838;
+    font-family: system-ui;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.content-rows a:hover {
+    color: #4d5ef3;
+}
+
+/* ─── View More Button ───────────────────────────────────────────── */
+.view-more {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    padding: 8px 10px;
+    background-color: #6d6760;
+    border-radius: 5px;
+}
+
+.view-more a {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.view-more:hover {
+    background-color: #1b02ff;
+    color: #fff;
+}
+
+/* ─── Miscellaneous ──────────────────────────────────────────────── */
+.text {
+    margin: auto;
+    font-family: cursive;
+    font-size: 25px;
+    padding: 30px 0 0;
+}
+
+.con-box {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+}
+
+.arrows {
+    color: #000;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.position-bar {
+    margin-top: 25px;
+}
+
+/* ─── Social Media ───────────────────────────────────────────────── */
+.social-media {
+    width: 99.5%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.social-media ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.social-media ul li {
+    padding: 5px 15px;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 40px;
+    margin: 5px 10px;
+}
+
+.social-media ul li a {
+    color: #fff;
+}
+
+/* ─── Group Links / Table ────────────────────────────────────────── */
+.group-links thead th {
+    width: auto;
+    height: 50px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.group-links table {
+    width: 60%;
+    text-align: center;
+}
+
+.group-links tbody td span {
+    padding: 2px 50px;
+    border-radius: 8px;
+    font-size: 25px;
+}
+
+.group-links tbody td span a {
+    color: #fff;
+}
+
+.group-links tbody th {
+    padding: 10px;
+}
+
+/* ─── Single Post ────────────────────────────────────────────────── */
+.post-image {
+    margin: 15px 0;
+}
+
+.post-image img {
+    width: 50%;
+}
+
+.single-post {
+    width: 90%;
+    margin: auto;
+    padding-top: 5rem;
+}
+
+.post-td {
+    padding: 5px 10px;
+}
+
+.single-post th {
+    width: 10rem;
+    font-weight: bolder;
+}
+
+.post-description {
+    margin: 30px 0;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+/* ─── Footer (legacy classes — see footer.css for new footer) ──── */
+.footer {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border: 2px solid #000;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content {
+    width: 30%;
+    padding: 15px;
+    margin: 5px;
+}
+
+.created-by {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    color: #fff;
+    font-size: 20px;
+    width: 100%;
+    padding: 2px;
+}
+
+.created-by a:hover {
+    color: #7437e7;
+}
+
+/* ─── Box Style (reusable card) ──────────────────────────────────── */
+.box-style {
+    margin-top: 50px;
+    border: 2px solid #fdfdfd;
+    border-radius: 6px;
+    box-shadow: #969697 1px 1px 4px 0;
+}
+
+/* ─── Homepage Color Cards ───────────────────────────────────────── */
+.color1 { background-color: #3973fa; background-image: linear-gradient(120deg, rgba(255,255,255,.1), rgba(0,0,0,.45)) }
+.color2 { background-color: #d339fa; background-image: linear-gradient(120deg, rgba(255,255,255,.1), rgba(0,0,0,.45)) }
+.color3 { background-color: #ff9b20; background-image: linear-gradient(120deg, rgba(255,255,255,.1), rgba(0,0,0,.45)) }
+.color4 { background-color: #ff286f; background-image: linear-gradient(120deg, rgba(255,255,255,.1), rgba(0,0,0,.45)) }
+.color5 { background-color: #07a26c; background-image: linear-gradient(120deg, rgba(255,255,255,.1), rgba(0,0,0,.45)) }
+.color6 { background-color: #ff570f; background-image: linear-gradient(120deg, rgba(255,255,255,.1), rgba(0,0,0,.45)) }
+.color7 { background-color: #38ceff; background-image: linear-gradient(120deg, rgba(255,255,255,.1), rgba(0,0,0,.45)) }
+.color8 { background-color: #2e67d9; background-image: linear-gradient(120deg, rgba(255,255,255,.1), rgba(0,0,0,.45)) }
+
+/* ─── Welcome Section ────────────────────────────────────────────── */
+.welcome-section { padding: 2rem 0 }
+.welcome-heading { text-align: center; color: #8100f3; font-weight: 700; text-transform: uppercase; font-size: 2rem; margin-bottom: 1.5rem }
+.news-ticker { overflow: hidden; position: relative; background: rgba(129,0,243,0.1); padding: 1rem; border-radius: 8px }
+.ticker-content { white-space: nowrap; animation: ticker 20s linear infinite; font-size: 1.5rem; font-family: 'Arial', sans-serif; color: #333 }
+@keyframes ticker { 0% { transform: translateX(100%) } 100% { transform: translateX(-100%) } }
